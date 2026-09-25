@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# your own training photos stay on your machine - never committed
+my_dataset/ok/*
+my_dataset/defect/*
+!my_dataset/ok/.gitkeep
+!my_dataset/defect/.gitkeep
+outputs/custom_models/
